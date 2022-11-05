@@ -1,11 +1,18 @@
 {
     "data": {
-        "data_dir": "./data"
+        "data_dir": "./data",
+        "validation_size": 300,
+        "num_workers": 0
     },
     "model": {
-        "model_loc": "./models/trained_model.filetype"
+        "model_loc": "",
+        "print_summary": false
     },
     "training": {
-        "batch_size": 64
+        "batch_size": 1,
+        "num_epochs": 10,
+        "lr": 0.001,
+        "print_training_graphs": true,
+        "save_model": true
     }
 }
