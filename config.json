@@ -1,0 +1,11 @@
+{
+    "data": {
+        "data_dir": "./data"
+    },
+    "model": {
+        "model_loc": "./models/trained_model.filetype"
+    },
+    "training": {
+        "batch_size": 64
+    }
+}
